@@ -66,6 +66,7 @@ GameObject:
   - component: {fileID: 6591539442574376099}
   - component: {fileID: 6507809478176028863}
   - component: {fileID: 9160243997493358103}
+  - component: {fileID: -1067354026353056412}
   m_Layer: 0
   m_Name: cat
   m_TagString: Untagged
@@ -237,8 +238,21 @@ MonoBehaviour:
   moveSpeed: 5
   moveAcceleration: 300
   tagsWeChase: 32
-  m_Text: {fileID: 6948771756520614173}
   maxDistanceToContinueChase: 7
+--- !u!114 &-1067354026353056412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6615318231868513539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a43e961316612cd459cc706b7bfc8f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Text: {fileID: 0}
+  m_FontSize: 5
 --- !u!1 &6948771756520614174
 GameObject:
   m_ObjectHideFlags: 0
