@@ -5,6 +5,9 @@ using UnityEngine;
 
 public class OykuCopyCat : BasicAICreature
 {
+    [SerializeField]
+    protected OykuPlayerClone _playerClone;
+    
     protected Tile _tileWereChasing = null;
 
     protected bool _transformed = false;
@@ -264,7 +267,7 @@ public class OykuCopyCat : BasicAICreature
                 otherTile.tileWereHolding.dropped(otherTile);
             }
             
-            var pl = Instantiate(otherTile);
+            var pl = Instantiate(_playerClone);
             pl.transform.position = this.transform.position;
             pl.transform.rotation = this.transform.rotation;
 
