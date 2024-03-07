@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6628503023634846002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6626625933772165044}
+  - component: {fileID: 6271653819145298083}
+  m_Layer: 0
+  m_Name: room-korby-enemy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6626625933772165044
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6628503023634846002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6271653819145298083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6628503023634846002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58307df3b2bb441469d9308e284f3d01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomAuthor: Antonio
+  designedRoomFile: {fileID: 4900000, guid: 1f9decc05f0aa50439114e84fc1f7d2b, type: 3}
+  localTilePrefabs:
+  - {fileID: 1781302445510578, guid: 16b0864b865574bc4a169084f3bf8cfc, type: 3}
+  - {fileID: 7272008374605676597, guid: 950e4a11f85fd3046bd83ad485d36989, type: 3}
+  roomGridX: 0
+  roomGridY: 0
+  hasUpExit: 1
+  hasDownExit: 0
+  hasLeftExit: 1
+  hasRightExit: 1
+  hasLeftToUpPath: 1
+  hasLeftToDownPath: 0
+  hasLeftToRightPath: 1
+  hasRightToUpPath: 1
+  hasRightToDownPath: 0
+  hasUpToDownPath: 0
