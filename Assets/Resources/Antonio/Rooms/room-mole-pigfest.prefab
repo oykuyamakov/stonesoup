@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6628503023634846002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6626625933772165044}
+  - component: {fileID: 6271653819145298083}
+  m_Layer: 0
+  m_Name: room-mole-pigfest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6626625933772165044
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6628503023634846002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6271653819145298083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6628503023634846002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58307df3b2bb441469d9308e284f3d01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomAuthor: Antonio
+  designedRoomFile: {fileID: 4900000, guid: ec69c4bbdfa071a4b8656866899c303a, type: 3}
+  localTilePrefabs:
+  - {fileID: 1273737218209362, guid: f6d74b122170b4644be17baf43f29ac9, type: 3}
+  - {fileID: 1182752131890783867, guid: fe4e2e5663242c844998d6d463582c12, type: 3}
+  roomGridX: 0
+  roomGridY: 0
+  hasUpExit: 1
+  hasDownExit: 1
+  hasLeftExit: 0
+  hasRightExit: 0
+  hasLeftToUpPath: 0
+  hasLeftToDownPath: 0
+  hasLeftToRightPath: 0
+  hasRightToUpPath: 0
+  hasRightToDownPath: 0
+  hasUpToDownPath: 1
