@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1896788399910994
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4561350303700290}
+  - component: {fileID: 5374782828538259795}
+  m_Layer: 0
+  m_Name: room_arena
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4561350303700290
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896788399910994}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5374782828538259795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896788399910994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb2e7b7c461564948a8653ea8a2eef00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomAuthor: Toby
+  designedRoomFile: {fileID: 0}
+  localTilePrefabs: []
+  roomGridX: 0
+  roomGridY: 0
+  enemyPrefab1: {fileID: 1781302445510578, guid: 16b0864b865574bc4a169084f3bf8cfc,
+    type: 3}
+  enemyPrefab2: {fileID: 1097009321995878, guid: 7f119146519d742d7953341b07580643,
+    type: 3}
+  enemyPrefab3: {fileID: 1781302445510578, guid: e528169e05dd14af1aa29b5a033465fb,
+    type: 3}
+  enchantfruitPrefab: {fileID: 1387771116485768, guid: 96674517855dfb9409a83b58b335b78d,
+    type: 3}
+  minNumEnemy1: 1
+  maxNumEnemy1: 4
+  minNumEnemy2: 1
+  maxNumEnemy2: 4
+  minNumEnemy3: 1
+  maxNumEnemy3: 4
+  borderWallProbability: 0.7
