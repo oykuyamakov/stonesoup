@@ -11,8 +11,6 @@ public class OykuItemStealerNpc : BasicAICreature
     protected Tile _tileWereChasing = null;
 
     protected bool _hasItsNeed = false;
-
-    //protected Coroutine _TextRoutine;
     
     protected Tile _aimTile;
 

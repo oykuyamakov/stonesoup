@@ -15,11 +15,11 @@ public class OykuDrunkNpc : BasicAICreature
     
     protected int _consumedBeer = 0;
 
-    protected Coroutine _TextRoutine;
-
     public float maxDistanceToContinueChase = 4f;
  
     protected float _timeSinceLastStep = 0f;
+    
+    private TileText _tileText => GetComponent<TileText>();
 
     public override void Start()
     {
@@ -233,14 +233,10 @@ public class OykuDrunkNpc : BasicAICreature
         
         if (otherTile != null && otherTile.hasTag(tagsWeChase))
         {
-            if (_TextRoutine != null)
-            {
-                StopCoroutine(_TextRoutine);
-            }
-            _TextRoutine = StartCoroutine(TextRefresh("Lets Get Drinks Man!"));
+            _tileText.DisplayText("Lets Get Drinks Man!");
         }
     }
-
+    
     protected IEnumerator TextRefresh(string text, float dur = 1)
     {
         m_Text.text = text;
@@ -269,23 +265,13 @@ public class OykuDrunkNpc : BasicAICreature
             
             AudioManager.playAudio(drinkSound);
             
-            if (_TextRoutine != null)
-            {
-                StopCoroutine(_TextRoutine);
-            }
-            _TextRoutine = StartCoroutine(TextRefresh("ohhh!", 2f));
-            
             if(_consumedBeer == 2)
             {
                 _hasItsNeed = true;
                 
                 AudioManager.playAudio(hasNeedsSound);
                 
-                if (_TextRoutine != null)
-                {
-                    StopCoroutine(_TextRoutine);
-                }
-                _TextRoutine = StartCoroutine(TextRefresh("I'm Drunk!", 3));
+                _tileText.DisplayText("I'm Drunk!");
             }
         }
     }

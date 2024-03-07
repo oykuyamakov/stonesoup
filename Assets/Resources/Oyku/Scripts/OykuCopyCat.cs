@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using TMPro;
 using UnityEngine;
@@ -13,7 +14,12 @@ public class OykuCopyCat : BasicAICreature
     protected float _timeSinceLastStep = 0f;
 
     protected TileText _tileText;
-    
+
+    private void Awake()
+    {
+        _tileText = GetComponent<TileText>();
+    }
+
     public virtual void Update()
     {
         _timeSinceLastStep += Time.deltaTime;
