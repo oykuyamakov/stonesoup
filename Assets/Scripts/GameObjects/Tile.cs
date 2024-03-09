@@ -24,7 +24,8 @@ public enum TileTags {
 	Water = 0x2000,
 	Plant = 0x4000,
 	Flammable = 0x8000,
-	Merchant = 0x10000
+	Merchant = 0x10000,
+	Friend = 0x20000,
 }
 
 // The two damage types available to us.

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1896788399910994
+--- !u!1 &8261005989448955906
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,22 +8,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4561350303700290}
-  - component: {fileID: -7445503420072054010}
+  - component: {fileID: 3313877242860989924}
+  - component: {fileID: 154816949079909959}
   m_Layer: 0
-  m_Name: start_room
+  m_Name: room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4561350303700290
+--- !u!4 &3313877242860989924
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1896788399910994}
+  m_GameObject: {fileID: 8261005989448955906}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -32,26 +32,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-7445503420072054010
+--- !u!114 &154816949079909959
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1896788399910994}
+  m_GameObject: {fileID: 8261005989448955906}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9fda1be0f47f4d2eb0cd4977c7295a1, type: 3}
+  m_Script: {fileID: 11500000, guid: 294f5a475b8f7481a8f1bb007b2cacda, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  roomAuthor: Toby
-  designedRoomFile: {fileID: 4900000, guid: 333fb6dfe13ed274794d68f0c027e863, type: 3}
-  localTilePrefabs:
-  - {fileID: 1614338125090674, guid: c6546c3e9410342e4955559817dfb24b, type: 3}
-  - {fileID: 1387771116485768, guid: 96674517855dfb9409a83b58b335b78d, type: 3}
-  - {fileID: 4296623131866412668, guid: 09fdf61dc66a63f4b8732ba1d7c34b62, type: 3}
-  - {fileID: 1387771116485768, guid: 96674517855dfb9409a83b58b335b78d, type: 3}
-  - {fileID: 1614338125090674, guid: b18b427deeac9ca408aed818cdd812ee, type: 3}
-  - {fileID: 1781302445510578, guid: 16b0864b865574bc4a169084f3bf8cfc, type: 3}
+  roomAuthor: sam
+  designedRoomFile: {fileID: 0}
+  localTilePrefabs: []
   roomGridX: 0
   roomGridY: 0
+  roomChoices:
+  - {fileID: 7869321496010864984, guid: dbe200399bc9f714880e3299c05267d1, type: 3}
+  - {fileID: 7869321496010864984, guid: dbe200399bc9f714880e3299c05267d1, type: 3}
+  - {fileID: 5525005720428799494, guid: 48bab9825f77bd64aa85aa64d31ebd73, type: 3}
+  - {fileID: 1700482625746591857, guid: 3fde12724abcd5245a8e679acd2427ef, type: 3}
