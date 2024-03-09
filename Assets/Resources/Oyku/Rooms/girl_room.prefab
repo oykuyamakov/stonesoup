@@ -9,10 +9,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4561350303700290}
-  - component: {fileID: 4827933238882686566}
   - component: {fileID: 6566366217030034463}
+  - component: {fileID: 356652531742708630}
   m_Layer: 0
-  m_Name: start_room_4
+  m_Name: girl_room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -33,26 +33,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4827933238882686566
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1896788399910994}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9fda1be0f47f4d2eb0cd4977c7295a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  roomAuthor: Oyku
-  designedRoomFile: {fileID: 4900000, guid: e053887b26d49304aa940c2f010075ae, type: 3}
-  localTilePrefabs:
-  - {fileID: 4296623131866412668, guid: f919bf790e10144428f94da63186e770, type: 3}
-  - {fileID: 6615318231868513539, guid: ea1ed8e3499d14e4bb865ef52e131e01, type: 3}
-  - {fileID: 1614338125090674, guid: 4088bd7e69fa942738dbcb162cb8a982, type: 3}
-  roomGridX: 0
-  roomGridY: 0
 --- !u!82 &6566366217030034463
 AudioSource:
   m_ObjectHideFlags: 0
@@ -149,3 +129,35 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &356652531742708630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1896788399910994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58307df3b2bb441469d9308e284f3d01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomAuthor: Oyku
+  designedRoomFile: {fileID: 4900000, guid: abf4a9cdd848fab4dbd9fcaa5a6ce921, type: 3}
+  localTilePrefabs:
+  - {fileID: 4296623131866412668, guid: f919bf790e10144428f94da63186e770, type: 3}
+  - {fileID: 4296623131866412668, guid: 09fdf61dc66a63f4b8732ba1d7c34b62, type: 3}
+  - {fileID: 6615318231868513539, guid: ea1ed8e3499d14e4bb865ef52e131e01, type: 3}
+  - {fileID: 6615318231868513539, guid: 70472030716ffe340bac8794f4511867, type: 3}
+  - {fileID: 1614338125090674, guid: 4088bd7e69fa942738dbcb162cb8a982, type: 3}
+  roomGridX: 0
+  roomGridY: 0
+  hasUpExit: 1
+  hasDownExit: 1
+  hasLeftExit: 0
+  hasRightExit: 0
+  hasLeftToUpPath: 0
+  hasLeftToDownPath: 0
+  hasLeftToRightPath: 0
+  hasRightToUpPath: 0
+  hasRightToDownPath: 0
+  hasUpToDownPath: 1

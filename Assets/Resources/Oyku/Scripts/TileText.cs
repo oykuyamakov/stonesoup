@@ -30,7 +30,7 @@ public class TileText : MonoBehaviour
         }
     }
 
-    public void DisplayText(string txt, float dur = 2, bool append = false)
+    public void DisplayText(string txt, float dur = 5, bool append = false)
     {
         if (append)
         {

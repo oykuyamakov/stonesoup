@@ -251,7 +251,7 @@ public class OykuItemStealerNpc : BasicAICreature
         {
             var holdedItem = otherTile.tileWereHolding;
             
-            _tileText.DisplayText("Gimme that" + holdedItem.tileName);
+            _tileText.DisplayText("Gimme that   " + holdedItem.tileName, 8, true);
             
             if (otherTile.tileWereHolding != null) {
                 otherTile.tileWereHolding.dropped(otherTile);
