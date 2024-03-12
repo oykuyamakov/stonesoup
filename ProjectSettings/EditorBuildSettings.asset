@@ -7,9 +7,17 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/MainMenuScene.unity
+    guid: c3557a671963d47cf9bc2142dde9238e
   - enabled: 1
     path: Assets/Scenes/PlayScene.unity
+    guid: 74eedce5a729e44efa701ec63845e829
   - enabled: 1
     path: Assets/Scenes/LevelCompleteScene.unity
+    guid: 01a942b81313341cea1ff7259b9e7452
   - enabled: 1
     path: Assets/Scenes/GameOverScene.unity
+    guid: 89d60128fd5ef4d6c9373a845abbe48b
+  - enabled: 1
+    path: Assets/Scenes/CompleteFriendEnding.unity
+    guid: 7f31cabba5a89aa48b27cfcc6e387d01
+  m_configObjects: {}
