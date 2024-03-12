@@ -24,6 +24,7 @@ public class TLGhostlyEnemy : BasicAICreature{
 
 	// Occasionally we'll start with a weapon pre-spawned on top of us. 
 	public GameObject[] maybeWeaponsToStartWith;
+	public TileText m_Text;
 
 	public override void init() {
 		base.init();
@@ -43,6 +44,7 @@ public class TLGhostlyEnemy : BasicAICreature{
 	public override void Start() {
 		_targetGridPos = Tile.toGridCoord(globalX, globalY);
 		_nextMoveCounter = Random.Range(timeBetweenMovesMin, timeBetweenMovesMax);
+		m_Text.DisplayText("Where is my body?",100,true);
 	}
 
 	void Update() {
