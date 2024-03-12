@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6626625933772165044}
   - component: {fileID: 6271653819145298083}
   m_Layer: 0
-  m_Name: room-mole-korby
+  m_Name: room-trap-enemy2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45,21 +45,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomAuthor: Antonio
-  designedRoomFile: {fileID: 4900000, guid: e4ce1af30b68d29428554ab49add75b5, type: 3}
+  designedRoomFile: {fileID: 4900000, guid: 46e47568b0722a84097e97593800967e, type: 3}
   localTilePrefabs:
-  - {fileID: 7272008374605676597, guid: 950e4a11f85fd3046bd83ad485d36989, type: 3}
-  - {fileID: 1182752131890783867, guid: fe4e2e5663242c844998d6d463582c12, type: 3}
-  - {fileID: 1097009321995878, guid: 7f119146519d742d7953341b07580643, type: 3}
-  - {fileID: 1781302445510578, guid: b53f78b282b0e3f4eb1838cc8c5d235c, type: 3}
+  - {fileID: 1215785095147150, guid: 2b0738d5b2f5d4d9982b845d0d9dc73c, type: 3}
+  - {fileID: 1376035031062694, guid: 78f95855a030f41dd8db1eb469d7aee2, type: 3}
+  - {fileID: 6615318231868513539, guid: ea1ed8e3499d14e4bb865ef52e131e01, type: 3}
   roomGridX: 0
   roomGridY: 0
   hasUpExit: 1
-  hasDownExit: 0
-  hasLeftExit: 0
+  hasDownExit: 1
+  hasLeftExit: 1
   hasRightExit: 1
-  hasLeftToUpPath: 0
-  hasLeftToDownPath: 0
-  hasLeftToRightPath: 0
+  hasLeftToUpPath: 1
+  hasLeftToDownPath: 1
+  hasLeftToRightPath: 1
   hasRightToUpPath: 1
-  hasRightToDownPath: 0
-  hasUpToDownPath: 0
+  hasRightToDownPath: 1
+  hasUpToDownPath: 1

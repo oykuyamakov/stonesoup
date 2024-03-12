@@ -64,6 +64,7 @@ GameObject:
   - component: {fileID: 1202672500777754001}
   - component: {fileID: 1214046980670002323}
   - component: {fileID: 7728981272400296491}
+  - component: {fileID: 4107174414773681660}
   m_Layer: 0
   m_Name: mole
   m_TagString: Untagged
@@ -217,14 +218,30 @@ MonoBehaviour:
   stepsAbove: 2
   possibleLoot:
   - {fileID: 5407174912359555840, guid: 96ba55743bf0fd84082d00eee86a3feb, type: 3}
-  - {fileID: 1753806526501684, guid: afcdda856952e4ebea341cde930fc002, type: 3}
+  - {fileID: 4296623131866412668, guid: f919bf790e10144428f94da63186e770, type: 3}
   - {fileID: 1224687453642000, guid: bba9de82886db444980f5c22f285e992, type: 3}
   - {fileID: 1614338125090674, guid: c6546c3e9410342e4955559817dfb24b, type: 3}
   - {fileID: 1312951893184288, guid: 68f68340d004845b1b0a1ace895aa64d, type: 3}
   - {fileID: 1403095745553274, guid: e0d6a3e1f97f7421ba2b1904d29efd99, type: 3}
   - {fileID: 1387771116485768, guid: e4d00d2fcd2614042856187fc264cd0d, type: 3}
-  - {fileID: 1614338125090674, guid: 5d7287654df624bbd8d0d8cbb3d53836, type: 3}
+  - {fileID: 1387771116485768, guid: 96674517855dfb9409a83b58b335b78d, type: 3}
   - {fileID: 1781302445510578, guid: e528169e05dd14af1aa29b5a033465fb, type: 3}
+  - {fileID: 7636669291719231555, guid: 318bb72b08230764aa9861c1dcbcb689, type: 3}
+  - {fileID: 5800025964740803909, guid: b0a29bd837168d241ab2478f1ab2ad98, type: 3}
+--- !u!114 &4107174414773681660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1182752131890783867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a43e961316612cd459cc706b7bfc8f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Text: {fileID: 0}
+  m_FontSize: 5
 --- !u!1 &1183488743964293045
 GameObject:
   m_ObjectHideFlags: 0

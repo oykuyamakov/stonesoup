@@ -46,7 +46,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   roomAuthor: Antonio
   designedRoomFile: {fileID: 4900000, guid: f32a40c88efcd0146a6708cbf968912e, type: 3}
-  localTilePrefabs: []
+  localTilePrefabs:
+  - {fileID: 9144085446482874480, guid: 880b72018e2fb9b4980e981ddfb3d194, type: 3}
   roomGridX: 0
   roomGridY: 0
   hasUpExit: 1
