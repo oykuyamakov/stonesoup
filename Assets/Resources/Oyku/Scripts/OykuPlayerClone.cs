@@ -35,24 +35,8 @@ public class OykuPlayerClone : Tile
 		"Oi tudo bem?",
 		"Miyav",
 		"I like playing",
-		"こんにちは!",
-		"안녕하세요!",
-		"你好!",
-		"مرحبا!",
-		"สวัสดี!",
 		"Chào bạn!",
 		"Saluton!",
-		"Γειά σας!",
-		"שלום!",
-		"سلام!",
-		"नमस्ते!",
-		"வணக்கம்!",
-		"ನಮಸ್ಕಾರ!",
-		"హలో!",
-		"ഹലോ!",
-		"ਹੈਲੋ!",
-		"हैलो!",
-		"हैलो!",
 		"Boo",
 	};
 
@@ -69,8 +53,8 @@ public class OykuPlayerClone : Tile
 	{
 		while (true)
 		{
-			yield return new WaitForSeconds(UnityEngine.Random.Range(10,25));
-			_tileText.DisplayText(_randomDialogue[UnityEngine.Random.Range(0, _randomDialogue.Count)], 8, true);
+			yield return new WaitForSeconds(UnityEngine.Random.Range(3f,8f));
+			_tileText.DisplayText(_randomDialogue[UnityEngine.Random.Range(0, _randomDialogue.Count)]);
 		}
 	}
 

@@ -1,18 +1,43 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 public class OykuGirl : BasicAICreature
 {
-    // [SerializeField] 
-    // private TextMeshPro m_Text;
 
-    //protected Coroutine _TextRoutine;
+    protected TileText _tileText;
     
     protected bool _conjured = false;
+    
 
     public override void Start()
     {
         base.Start();
 
-        tagsWeChase = TileTags.Player;
+        tagsWeChase = TileTags.Player | TileTags.Friend | TileTags.Enemy;
+        
+        _tileText = GetComponent<TileText>();
+		
+        _tileText.DisplayText("Hieoww");
+		
+        StartCoroutine(RandomDialogue());
+    }
+    
+    private List<string> _randomDialogue = new List<string>()
+    {
+        "You look so ugly, I can fix you",
+        "Come to me, I will make you beautiful",
+        "Do you know mike?",
+        "Beware of the copy cat, it just jealous of me",
+        
+    };
+    
+    protected IEnumerator RandomDialogue()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(Random.Range(5f,9f));
+            _tileText.DisplayText(_randomDialogue[Random.Range(0, _randomDialogue.Count)]);
+        }
     }
 
     void OnCollisionStay2D(Collision2D collision)
@@ -36,7 +61,7 @@ public class OykuGirl : BasicAICreature
             //     StopCoroutine(_TextRoutine);
             // }
             
-            m_Text.DisplayText(":)", 2);
+            _tileText.DisplayText("Hi sugar :)", 2);
             //_TextRoutine = StartCoroutine(TextRefresh(":)", 2));
 
             otherTile.GetComponent<Animator>().enabled = false;
@@ -44,7 +69,6 @@ public class OykuGirl : BasicAICreature
         }
     }
 
-    protected TileText m_Text => GetComponent<TileText>();
 
     // protected IEnumerator TextRefresh(string text, float dur = 1)
     // {
