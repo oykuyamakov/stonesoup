@@ -56,7 +56,7 @@ public class joker : Tile
                 if (gameObject != null)
                 {
                     Tile tileType = gameObject.GetComponent<Tile>();
-                    if (tileType != null && tileType.hasTag(TileTags.CanBeHeld) && tileType.tileName != "joker")
+                    if (tileType != null && tileType.hasTag(TileTags.CanBeHeld) && tileType.tileName != "joker" && !tileType.hasTag(TileTags.Consumable))
                     {
                         possibleItem.Add(gameObject);
                     }

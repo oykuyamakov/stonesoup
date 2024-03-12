@@ -346,7 +346,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0903b09bbb6c414e8a1794a95eca576, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tags: 8194
+  tags: 8450
   tileName: beer
   health: 1
   deathEffect: {fileID: 0}

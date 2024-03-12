@@ -26,9 +26,9 @@ public class FogOfWar : Tile
         _myRoom = transform.parent.GetComponent<Room>();
         int[,] indexGrid = loadIndexGrid();
 
-        for (int x = 1; x < LevelGenerator.ROOM_WIDTH - 1; x++)
+        for (int x = 0; x < LevelGenerator.ROOM_WIDTH; x++)
         {
-            for (int y = 1; y < LevelGenerator.ROOM_HEIGHT - 1; y++)
+            for (int y = 0; y < LevelGenerator.ROOM_HEIGHT; y++)
             {
                 if (indexGrid[x, y] == 1)
                 {

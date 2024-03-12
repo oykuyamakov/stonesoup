@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e4e62a12602be94f8e1b371dccb32c5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tags: 2
+  tags: 66
   tileName: joker
   health: 1
   deathEffect: {fileID: 0}

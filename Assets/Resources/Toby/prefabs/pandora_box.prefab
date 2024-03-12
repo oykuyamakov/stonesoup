@@ -256,7 +256,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 806b7c8268e32de45938f8424c768e5e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tags: 66
+  tags: 322
   tileName: 'Pandora''s Box: What''s in this?'
   health: 1
   deathEffect: {fileID: 0}

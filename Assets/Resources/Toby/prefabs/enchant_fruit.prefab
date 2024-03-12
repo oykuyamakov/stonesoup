@@ -94,7 +94,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a14522cc1d052c647afe4490755cdd41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tags: 2
+  tags: 258
   tileName: 'Enchanting Fruit: You are mine!'
   health: 1
   deathEffect: {fileID: 0}

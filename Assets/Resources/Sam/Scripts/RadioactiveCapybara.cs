@@ -30,10 +30,15 @@ public class RadioactiveCapybara : Tile
 
         if (_clipTimer >= 10)
         {
-            Debug.Log("play it again sam");
+            //Debug.Log("play it again sam");
             _clipTimer = 0;
             AudioSource playItAgainSam = gameObject.AddComponent(typeof(AudioSource)) as AudioSource;
             playItAgainSam.clip = _capybaraSounds;
+            playItAgainSam.spatialBlend = 1;
+            //playItAgainSam.rolloffMode = AudioRolloffMode.Linear;
+            playItAgainSam.minDistance = 10;
+            playItAgainSam.maxDistance = 35;
+            playItAgainSam.volume = 1;
             playItAgainSam.Play();
             _clipCount++;
 
