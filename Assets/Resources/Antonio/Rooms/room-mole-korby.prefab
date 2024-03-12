@@ -50,6 +50,7 @@ MonoBehaviour:
   - {fileID: 7272008374605676597, guid: 950e4a11f85fd3046bd83ad485d36989, type: 3}
   - {fileID: 1182752131890783867, guid: fe4e2e5663242c844998d6d463582c12, type: 3}
   - {fileID: 1097009321995878, guid: 7f119146519d742d7953341b07580643, type: 3}
+  - {fileID: 1781302445510578, guid: b53f78b282b0e3f4eb1838cc8c5d235c, type: 3}
   roomGridX: 0
   roomGridY: 0
   hasUpExit: 1

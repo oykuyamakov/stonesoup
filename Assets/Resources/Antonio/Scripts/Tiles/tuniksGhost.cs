@@ -7,7 +7,12 @@ public class tuniksGhost : Tile{
     protected float speed = 1f;
     protected Vector2 dir = Vector2.zero;
     protected float timer = 0;
-    protected TileText tt => GetComponent<TileText>();
+    protected TileText tt;
+
+    void Start(){
+        tt = GetComponent<TileText>();
+        tt.DisplayText("Boo");
+    }
 
     void Update(){
         timer+=Time.deltaTime;

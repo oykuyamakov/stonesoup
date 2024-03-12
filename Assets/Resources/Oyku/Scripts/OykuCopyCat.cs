@@ -298,6 +298,8 @@ public class OykuCopyCat : BasicAICreature
             if (distanceToTile > maxDistanceToContinueChase)
             {
                 _tileWereChasing = null;
+                
+                _tileText.DisplayText("Noi!! Dont goeew");
                 return;
             }
             

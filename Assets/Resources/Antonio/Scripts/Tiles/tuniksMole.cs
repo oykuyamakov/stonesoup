@@ -15,9 +15,12 @@ public class tuniksMole : BasicAICreature{
 	// Occasionally we'll start with a weapon pre-spawned on top of us. 
 	public GameObject[] possibleLoot;
 
+	private TileText tt;
+
 	public override void Start() {
 		_targetGridPos = Tile.toGridCoord(globalX, globalY);
 		_nextMoveCounter = Random.Range(timeBetweenMovesMin, timeBetweenMovesMax);
+		tt = GetComponent<TileText>();
 	}
 
 	void Update() {
@@ -79,7 +82,7 @@ public class tuniksMole : BasicAICreature{
     private void PopUp(){
         _sprite.enabled = true;
         _collider.enabled = true;
-
+		tt.DisplayText("You can't catch me!", .4f);
     }
 
     private void DigDown(){

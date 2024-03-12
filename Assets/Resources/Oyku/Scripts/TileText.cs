@@ -27,6 +27,10 @@ public class TileText : MonoBehaviour
             m_Text.rectTransform.sizeDelta = new Vector2(4, 1);
             m_Text.fontSize = m_FontSize;
             m_Text.alignment = TextAlignmentOptions.Center;
+            var font = Resources.Load<TMP_FontAsset>($"Fonts & Materials/nokiafc22 SDF");
+
+            m_Text.font = font;
+            Debug.Log(font);
         }
     }
 
