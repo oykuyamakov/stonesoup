@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 61606947301971340}
   - component: {fileID: 50443663618399374}
   - component: {fileID: 1991349979918288871}
+  - component: {fileID: -8148023888129846436}
   m_Layer: 0
   m_Name: mike
   m_TagString: Untagged
@@ -165,6 +166,20 @@ MonoBehaviour:
   timeBetweenMovesMin: 1.5
   timeBetweenMovesMax: 3
   maybeWeaponsToStartWith: []
+--- !u!114 &-8148023888129846436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1097009321995878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a43e961316612cd459cc706b7bfc8f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Text: {fileID: 0}
+  m_FontSize: 5
 --- !u!1 &1097812431973016
 GameObject:
   m_ObjectHideFlags: 0
