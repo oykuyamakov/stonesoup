@@ -155,7 +155,6 @@ public class FogOfWar : Tile
 
             for (int i = 0; i < contributorFolder.Length; i++)
             {
-                Debug.Log(contributorFolder[i] + "/Prefabs");
                 Object[] prefabs = Resources.LoadAll(contributorFolder[i] + "/Prefabs", typeof(GameObject));
                 foreach (GameObject gameObject in prefabs)
                 {

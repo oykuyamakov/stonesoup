@@ -12,7 +12,7 @@ public class FriendCountText : MonoBehaviour{
 
     void Update() {
         if (Player.instance != null) {
-			_text.text = string.Format("Friends: {0}", Player.instance.friendCount);
+			_text.text = string.Format("Friends: {0}", GameManager.friendCount);
 		}
     }
 }

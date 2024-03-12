@@ -41,7 +41,9 @@ public class GameManager : MonoBehaviour {
 	public static GameManager instance {
 		get { return _instance; }
 	}
-
+	
+	// Counts how many friends the player has made (enchant fruit, copycat)
+	public static int friendCount = 0;
 
 	// A counter for how many levels we've played so far. 
 	// Perhaps you could use this in your generation to make your rooms steadily increase in difficulty.
@@ -222,7 +224,7 @@ public class GameManager : MonoBehaviour {
 			}
 		}
 		Time.timeScale = 1;
-		SceneManager.LoadScene("LevelCompleteScene");
+		SceneManager.LoadScene("CompleteFriendEnding");
 	}
 
 	// END GAME LOGIC

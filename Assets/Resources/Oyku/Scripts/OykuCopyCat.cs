@@ -334,9 +334,7 @@ public class OykuCopyCat : BasicAICreature
     }
 
     protected void TickFriendsCounterUp(){
-        if(Player.instance != null){
-            Player.instance.friendCount++;
-        }
+        GameManager.friendCount++;
     }
 }
 

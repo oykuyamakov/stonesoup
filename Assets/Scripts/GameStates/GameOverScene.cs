@@ -11,7 +11,7 @@ public class GameOverScene : MonoBehaviour {
 	public Text numLevelsCompletedText;
 
 	void Start() {
-		numLevelsCompletedText.text = string.Format("Levels Completed: {0}", GameManager.levelNumber);
+		numLevelsCompletedText.text = string.Format("Friends Made: {0}", GameManager.friendCount);
 	}
 
 	public void tryAgain() {
@@ -23,6 +23,7 @@ public class GameOverScene : MonoBehaviour {
 	public void returnToMenu() {
 		AudioManager.playAudio(clickSound);
 		GameManager.levelNumber = 0;
+		GameManager.friendCount = 0;
 		SceneManager.LoadScene("MainMenuScene");
 	}
 }

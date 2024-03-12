@@ -116,9 +116,7 @@ public class TLEnchantFruit : apt283Rock {
     }
     
     protected void TickFriendsCounterUp(){
-        if(Player.instance != null){
-            Player.instance.friendCount++;
-        }
+        GameManager.friendCount++;
     }
 
     
