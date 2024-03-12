@@ -171,12 +171,6 @@ public class FogOfWar : Tile
 
             }
 
-
-            for (int i = 0; i < possibleItem.Count; i++)
-            {
-                Debug.Log(possibleItem[i] + " can be spawned");
-            }
-
             int choice = Random.Range(0, possibleItem.Count);
         
             spawnTile(possibleItem[choice], this.transform.parent, _gridPos.x, _gridPos.y);
