@@ -170,7 +170,7 @@ MonoBehaviour:
   timeBetweenMovesMin: 0.3
   timeBetweenMovesMax: 3
   maybeWeaponsToStartWith: []
-  textDisplay: {fileID: -1420006114822653966}
+  m_Text: {fileID: -1420006114822653966}
 --- !u!114 &-1420006114822653966
 MonoBehaviour:
   m_ObjectHideFlags: 0

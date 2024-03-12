@@ -44,7 +44,7 @@ public class TLGhostlyEnemy : BasicAICreature{
 	public override void Start() {
 		_targetGridPos = Tile.toGridCoord(globalX, globalY);
 		_nextMoveCounter = Random.Range(timeBetweenMovesMin, timeBetweenMovesMax);
-		m_Text.DisplayText("Where is my body?",100,true);
+		m_Text.DisplayText("Where is my body?",1000,false);
 	}
 
 	void Update() {

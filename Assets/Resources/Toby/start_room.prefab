@@ -49,7 +49,7 @@ MonoBehaviour:
   localTilePrefabs:
   - {fileID: 1614338125090674, guid: c6546c3e9410342e4955559817dfb24b, type: 3}
   - {fileID: 1387771116485768, guid: 96674517855dfb9409a83b58b335b78d, type: 3}
-  - {fileID: 4296623131866412668, guid: 09fdf61dc66a63f4b8732ba1d7c34b62, type: 3}
+  - {fileID: 1097009321995878, guid: dbb1c2451cab0c84e811def79725071c, type: 3}
   - {fileID: 1387771116485768, guid: 96674517855dfb9409a83b58b335b78d, type: 3}
   - {fileID: 1614338125090674, guid: b18b427deeac9ca408aed818cdd812ee, type: 3}
   - {fileID: 1781302445510578, guid: 16b0864b865574bc4a169084f3bf8cfc, type: 3}
