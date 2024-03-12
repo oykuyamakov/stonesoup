@@ -8,6 +8,8 @@ using UnityEngine.SceneManagement;
 // Spawned by the start room. 
 //
 public class Player : Tile {
+	// Counts how many friends the player has made (enchant fruit, copycat)
+	[HideInInspector] public int friendCount = 0;
 
 	// SFX we play
 	public AudioClip pickupDropSound, hurtSound, exitSound;

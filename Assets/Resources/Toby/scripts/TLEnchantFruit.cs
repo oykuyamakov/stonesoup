@@ -94,9 +94,8 @@ public class TLEnchantFruit : apt283Rock {
                     enemy.damageAmount = 0;
                     enemy.damageForce = 0;
                 }
-                //creature.tagsWeChase = TileTags.Water;
+                TickFriendsCounterUp();
                 creature.tags = TileTags.Friend;
-            Debug.Log(creature.tagsWeChase);
         }
         if (collision.relativeVelocity.magnitude > damageThreshold) {
             base.die();
@@ -116,7 +115,11 @@ public class TLEnchantFruit : apt283Rock {
         }
     }
     
-   
+    protected void TickFriendsCounterUp(){
+        if(Player.instance != null){
+            Player.instance.friendCount++;
+        }
+    }
 
     
 

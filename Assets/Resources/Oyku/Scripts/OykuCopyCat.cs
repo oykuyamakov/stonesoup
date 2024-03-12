@@ -276,6 +276,7 @@ public class OykuCopyCat : BasicAICreature
             _transformed = true;
             _tileWereChasing = null;
             
+            TickFriendsCounterUp();
             die();
 
         }
@@ -330,6 +331,12 @@ public class OykuCopyCat : BasicAICreature
         }
 
         return true;
+    }
+
+    protected void TickFriendsCounterUp(){
+        if(Player.instance != null){
+            Player.instance.friendCount++;
+        }
     }
 }
 

@@ -64,5 +64,5 @@ MonoBehaviour:
     type: 3}
   indestructibleWallPrefab: {fileID: 1390380352294714, guid: 3a4808064c87c487e86ba0b036d35126,
     type: 3}
-  numXRooms: 20
+  numXRooms: 6
   numYRooms: 20
