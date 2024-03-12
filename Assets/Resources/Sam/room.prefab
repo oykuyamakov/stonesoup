@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3313877242860989924}
-  - component: {fileID: 154816949079909959}
+  - component: {fileID: 934450965517747540}
   m_Layer: 0
   m_Name: room
   m_TagString: Untagged
@@ -32,7 +32,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &154816949079909959
+--- !u!114 &934450965517747540
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,7 +41,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8261005989448955906}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 294f5a475b8f7481a8f1bb007b2cacda, type: 3}
+  m_Script: {fileID: 11500000, guid: c394ff5fdfd93e14194830764b0f8d1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   roomAuthor: sam
@@ -49,8 +49,7 @@ MonoBehaviour:
   localTilePrefabs: []
   roomGridX: 0
   roomGridY: 0
-  roomChoices:
-  - {fileID: 7869321496010864984, guid: dbe200399bc9f714880e3299c05267d1, type: 3}
-  - {fileID: 7869321496010864984, guid: dbe200399bc9f714880e3299c05267d1, type: 3}
+  ValidatedRooms:
   - {fileID: 5525005720428799494, guid: 48bab9825f77bd64aa85aa64d31ebd73, type: 3}
-  - {fileID: 1700482625746591857, guid: 3fde12724abcd5245a8e679acd2427ef, type: 3}
+  - {fileID: 5525005720428799494, guid: 0a4ba18b40ce3ef4f87c04e9e1bdafa2, type: 3}
+  - {fileID: 5525005720428799494, guid: 983c67283c39a464698d18b4299dbf61, type: 3}

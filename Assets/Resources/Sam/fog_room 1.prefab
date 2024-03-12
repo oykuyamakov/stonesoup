@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2081750492164793351}
   - component: {fileID: 5281330420998410664}
   m_Layer: 0
-  m_Name: fog_room
+  m_Name: fog_room 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   roomAuthor: sam
-  designedRoomFile: {fileID: 4900000, guid: 5e6de5d56ab6acb4c8b242b97e5249be, type: 3}
+  designedRoomFile: {fileID: 4900000, guid: f323693dcb927c146b4da58348252ae0, type: 3}
   localTilePrefabs:
   - {fileID: 1403095745553274, guid: e44a83e6dd15386429dba6b5c976e3cd, type: 3}
   - {fileID: 7971816696226332449, guid: c57bead94d79eec41bdb9651ebea13d1, type: 3}
