@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4561350303700290}
-  - component: {fileID: 114103883745807518}
+  - component: {fileID: 2786585507141065454}
   m_Layer: 0
-  m_Name: room
+  m_Name: room_ghostwithagun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32,7 +32,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114103883745807518
+--- !u!114 &2786585507141065454
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,22 +41,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 1896788399910994}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 294f5a475b8f7481a8f1bb007b2cacda, type: 3}
+  m_Script: {fileID: 11500000, guid: 58307df3b2bb441469d9308e284f3d01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   roomAuthor: Toby
-  designedRoomFile: {fileID: 0}
-  localTilePrefabs: []
+  designedRoomFile: {fileID: 4900000, guid: 19cfbde1436cced47bbf5b05516ae5c2, type: 3}
+  localTilePrefabs:
+  - {fileID: 1097009321995878, guid: dbb1c2451cab0c84e811def79725071c, type: 3}
+  - {fileID: 1614338125090674, guid: c6546c3e9410342e4955559817dfb24b, type: 3}
   roomGridX: 0
   roomGridY: 0
-  roomChoices:
-  - {fileID: 1335745978078546, guid: 49b4bda1e61455b4788d52a078bb4fbc, type: 3}
-  - {fileID: 1896788399910994, guid: 4367b3126d428074eb3c53f0626dc7cf, type: 3}
-  - {fileID: 1896788399910994, guid: 026f284846751d44d9149008d532e5bb, type: 3}
-  - {fileID: 1335745978078546, guid: 637dcba79ec4889418c09b73e4148aec, type: 3}
-  - {fileID: 1335745978078546, guid: 32455076a7139a14c9889666c0174e31, type: 3}
-  - {fileID: 1896788399910994, guid: 1461d37f2aa542f459e5ccf3663fada0, type: 3}
-  - {fileID: 1896788399910994, guid: 16e8e0e6675ac17459065283a75750c4, type: 3}
-  - {fileID: 1335745978078546, guid: 038dcdedd02f24745b259e48324b8186, type: 3}
-  - {fileID: 1896788399910994, guid: a5cac9c58faaf3a4c9c5dd8f99db1222, type: 3}
-  - {fileID: 1335745978078546, guid: 7e2dba05d7a297744894306d32244287, type: 3}
+  hasUpExit: 1
+  hasDownExit: 0
+  hasLeftExit: 1
+  hasRightExit: 1
+  hasLeftToUpPath: 0
+  hasLeftToDownPath: 1
+  hasLeftToRightPath: 0
+  hasRightToUpPath: 1
+  hasRightToDownPath: 0
+  hasUpToDownPath: 0
