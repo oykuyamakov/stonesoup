@@ -64,6 +64,7 @@ GameObject:
   - component: {fileID: 7215836266046414966}
   - component: {fileID: 7226630152209721716}
   - component: {fileID: 6798266674470511708}
+  - component: {fileID: 1088833522187750591}
   m_Layer: 0
   m_Name: ghost
   m_TagString: Untagged
@@ -208,6 +209,20 @@ MonoBehaviour:
   heldAngle: 0
   tileWereHolding: {fileID: 0}
   aimDirection: {x: 0, y: 0}
+--- !u!114 &1088833522187750591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7276398980022492060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a43e961316612cd459cc706b7bfc8f28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Text: {fileID: 0}
+  m_FontSize: 5
 --- !u!1 &7277698388639140434
 GameObject:
   m_ObjectHideFlags: 0
